@@ -9,4 +9,8 @@ class PalindromeDvsTest < Minitest::Test
   def test_not_palindrome
     refute 'divyesh'.palindrome?
   end
+
+  def test_palindrome
+    assert 'deified'.palindrome?
+  end
 end

@@ -5,18 +5,15 @@ Gem::Specification.new do |spec|
   spec.version       = PalindromeDvs::VERSION
   spec.authors       = ["Divyesh Patel"]
   spec.email         = ["pateldivyesh009@gmail.com"]
-
-  spec.summary       = %q{Palindrome Checker}
-  spec.description   = %q{Ruby Gem which checks whether the string is palindrome is not}
-  spec.homepage      = "https://www.example.com"
-  spec.license       = "MIT"
+  spec.summary       = 'Palindrome Checker'
+  spec.description   = 'Ruby Gem which checks whether the string is palindrome is not'
+  spec.homepage      = 'https://github.com/bugdimes/palindrome_dvs'
+  spec.license       = 'MIT'
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
-
-  spec.metadata["allowed_push_host"] = "Set to 'http://mygemserver.com'"
-
+  spec.metadata["allowed_push_host"] = "https://rubygems.org/"
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/bugdimes/palindrome_dvs"
-  spec.metadata["changelog_uri"] = "https://github.com/bugdimes/palindrome_dvs"
+  spec.metadata["source_code_uri"] = spec.homepage
+  spec.metadata["changelog_uri"] = spec.homepage
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
